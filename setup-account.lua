@@ -74,7 +74,7 @@ if success then
     print("Ready to Download RedChat!")
     print("Press Any Key to Save!")
     os.pullEvent("key")
-    shell.run("wget", "https://raw.githubusercontent.com/ROBOGUYONLIN/RedChat/refs/heads/main/RedChat.lua", "starup.lua")
+    shell.run("wget", "https://raw.githubusercontent.com/ROBOGUYONLIN/RedChat/refs/heads/main/RedChat.lua", "startup.lua")
     print("Download Complete!")
     print("Press Any Key to Shutdown!")
     os.pullEvent("key")
